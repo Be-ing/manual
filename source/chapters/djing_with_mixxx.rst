@@ -330,7 +330,7 @@ compare it to the length of the intro of the next track.
 
 .. _djing-auto-dj:
 
-Auto DJ
+AutoDJ
 =======
 
 .. sectionauthor::
@@ -340,40 +340,40 @@ Auto DJ
    :align: center
    :width: 100%
    :figwidth: 100%
-   :alt: Mixxx library - Auto DJ view
+   :alt: Mixxx library - AutoDJ view
    :figclass: pretty-figures
 
-   Mixxx library - Auto DJ view
+   Mixxx library - AutoDJ view
 
-Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
+AutoDJ allows you to automatically load tracks from the AutoDJ playlist when
 the current track is nearly finished, and crossfade into it.  See
 :ref:`library-auto-dj`.
 
 AutoDJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
 
-Loading tracks into Auto DJ
+Loading tracks into AutoDJ
 ---------------------------
 
-To play tracks automatically, they must first be loaded into the Auto DJ
-playlist. The Auto DJ playlist is empty by default.
+To play tracks automatically, they must first be loaded into the AutoDJ
+playlist. The AutoDJ playlist is empty by default.
 
 .. figure:: ../_static/Mixxx-200-Library-Add-to-Auto-DJ.png
    :align: center
    :width: 50%
    :figwidth: 100%
-   :alt: Mixxx library - Adding a playlist to Auto DJ
+   :alt: Mixxx library - Adding a playlist to AutoDJ
    :figclass: pretty-figures
 
-   Mixxx library - Adding a playlist to Auto DJ
+   Mixxx library - Adding a playlist to AutoDJ
 
-There are several ways to load tracks into the Auto DJ playlist:
+There are several ways to load tracks into the AutoDJ playlist:
 
 * Select single or multiple tracks from the library, a regular playlist or crate
-  and drag them to the Auto DJ icon on the left.
+  and drag them to the AutoDJ icon on the left.
 * Select a regular playlist or crate, right-click with the mouse and select
-  :guilabel:`Add to Auto DJ` from the mouse menu. This adds all tracks to Auto DJ.
-* While in the Auto DJ view of the library, drag tracks from external file
-  managers to the Auto DJ icon in the sidebar or to the Auto DJ track table on
+  :guilabel:`Add to AutoDJ` from the mouse menu. This adds all tracks to AutoDJ.
+* While in the AutoDJ view of the library, drag tracks from external file
+  managers to the AutoDJ icon in the sidebar or to the AutoDJ track table on
   the right.
 
 .. _djing-auto-dj-crates:
@@ -381,61 +381,61 @@ There are several ways to load tracks into the Auto DJ playlist:
 Automatically adding tracks from crates
 ---------------------------------------
 
-Instead of inserting the contents of the crates directly into the Auto DJ
-playlist, :ref:`Auto DJ crates <library-auto-dj-crates>` are associated
+Instead of inserting the contents of the crates directly into the AutoDJ
+playlist, :ref:`AutoDJ crates <library-auto-dj-crates>` are associated
 crates that become a source of random track selections.
 
-* **Add a crate to the Auto DJ track sources**:  Expand the :guilabel:`Auto DJ`
+* **Add a crate to the AutoDJ track sources**:  Expand the :guilabel:`AutoDJ`
   item in the sidebar, and right-click on the :guilabel:`Crates` sub-item.
   Select one of the existing crates from the list. This makes the content of the
-  crate available for random selection into the :ref:`Auto DJ <library-auto-dj>`
+  crate available for random selection into the :ref:`AutoDJ <library-auto-dj>`
   queue for automatic mixing. The name of the crate is now listed as sub-item
   below.
 
   If you do not have any crates available for selection in the list, go
   and create a crate first and add some tracks, see :ref:`library-crates`.
 
-* **Manually add tracks from track sources to Auto DJ**: Click the
-  :guilabel:`Auto DJ` item in the sidebar and switch to the Auto DJ view of the
+* **Manually add tracks from track sources to AutoDJ**: Click the
+  :guilabel:`AutoDJ` item in the sidebar and switch to the AutoDJ view of the
   library. Click the :guilabel:`Add random` button to add one track at the time
-  from Auto DJ track sources to the bottom of the Auto DJ playlist.
+  from AutoDJ track sources to the bottom of the AutoDJ playlist.
 
-  .. note:: If you did not set any crates as an Auto DJ track source, clicking
+  .. note:: If you did not set any crates as an AutoDJ track source, clicking
             the :guilabel:`Add Random` button will add a randomly selected track
             from the whole library instead.
 
-* **Automatically add tracks from track sources to Auto DJ**: Mixxx can randomly
-  add tracks to the Auto DJ playlist from track sources as soon as a
+* **Automatically add tracks from track sources to AutoDJ**: Mixxx can randomly
+  add tracks to the AutoDJ playlist from track sources as soon as a
   specified minimum number of tracks remain. Select
-  :menuselection:`Preferences --> Auto DJ --> Enable random track addition to
+  :menuselection:`Preferences --> AutoDJ --> Enable random track addition to
   queue --> On`. Set :menuselection:`Minimum allowed tracks before addition` to
   change the minimum number of tracks after which random tracks may be added.
 
-  .. note:: If you did not set any crates as an Auto DJ track source, tracks are
+  .. note:: If you did not set any crates as an AutoDJ track source, tracks are
             selected from the whole library instead.
 
-* **Remove a crate from the Auto DJ track sources**: Expand the :guilabel:`Auto DJ`
+* **Remove a crate from the AutoDJ track sources**: Expand the :guilabel:`AutoDJ`
   item in the sidebar, and right-click on one of the crates listed below the
   :guilabel:`Crates` sub-item. Select :guilabel:`Remove Crate as Track
-  Source` to remove the crate from the Auto DJ track sources.
+  Source` to remove the crate from the AutoDJ track sources.
 
-Playing tracks in Auto DJ
+Playing tracks in AutoDJ
 -------------------------
 
-Now that you have loaded tracks into the Auto DJ playlist, you can activate Auto
+Now that you have loaded tracks into the AutoDJ playlist, you can activate Auto
 DJ as follows:
 
-* Click on the *Auto DJ* icon in the sidebar to switch to the :guilabel:`Auto
+* Click on the *AutoDJ* icon in the sidebar to switch to the :guilabel:`Auto
   DJ` view of the library.
-* Click the :guilabel:`Enable Auto DJ` button.
+* Click the :guilabel:`Enable AutoDJ` button.
 * The first tracks from your list are loaded into the decks and the playback
   starts.
-* Mixxx will continue to automatically mix until the Auto DJ playlist is empty.
-* Click the :guilabel:`Disable Auto DJ` button to stop the automatic mixing
+* Mixxx will continue to automatically mix until the AutoDJ playlist is empty.
+* Click the :guilabel:`Disable AutoDJ` button to stop the automatic mixing
 
-.. hint:: You can add a track to the end of the Auto DJ playlist once it is
+.. hint:: You can add a track to the end of the AutoDJ playlist once it is
           played instead of removing it. Set :menuselection:`Preferences -->
-          Auto DJ --> Re-queue tracks after playback --> On`.
+          AutoDJ --> Re-queue tracks after playback --> On`.
 
 .. _djing-auto-dj-modes:
 
